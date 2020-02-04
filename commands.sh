@@ -99,3 +99,12 @@ users
 # Check information about yourself
 id
 
+# Change permissions (change mode)
+chmod +x file1 # make file executable
+chmod 700 file1 # only user has all 3 access
+chmod 744 file1 # user has all, group and everyone can read
+
+# Kill process running in terminal: Ctrl + C
+watch free -h
+# Kill a program
+killall chrome
